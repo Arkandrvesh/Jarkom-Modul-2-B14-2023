@@ -627,9 +627,9 @@ Kita jalankan di client server (nakula/sadewa)
 **Nakula**
 	-`Test_9.sh`
 ```
-lynx http://192.173.3.2
-lynx http://192.173.3.3
-lynx http://192.173.3.4
+lynx http://192.185.3.2
+lynx http://192.185.3.3
+lynx http://192.185.3.4
 ```
 
 
@@ -715,9 +715,9 @@ service nginx restart
 **Nakula**
 	-`Test_10.sh`
 ```
-lynx http://192.173.3.2:8001
-lynx http://192.173.3.3:8002
-lynx http://192.173.3.4:8003
+lynx http://192.185.3.2:8001
+lynx http://192.185.3.3:8002
+lynx http://192.185.3.4:8003
 ```
  
 ### Result
