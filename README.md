@@ -141,7 +141,7 @@ ping google.com -c 5
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no1.png?raw=true)
 
 
 ## Soal 2 
