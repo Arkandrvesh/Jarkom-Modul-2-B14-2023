@@ -99,19 +99,19 @@ iface eth0 inet static
 - **IP Setiap Server**
   ```
   (Switch 2)
-  Router	  : 192.185.2.1 
+  Router	          : 192.185.2.1 
   Yudhistira    : 192.185.2.2
-  Werkudara	    : 192.185.2.3
+  Werkudara   : 192.185.2.3
   (Switch 1)
   Router	    : 192.185.1.1 
   Nakula	    : 192.185.1.2 
   Sadewa	    : 192.185.1.3
-  Arjuna        : 192.185.1.4
+  Arjuna            : 192.185.1.4
   (Switch 3)
-  Router    : 192.185.3.1 
+  Router        : 192.185.3.1 
   Prabukusuma  	: 192.185.3.2
   Abimanyu	 : 192.185.3.3
-  Wisanggeni   : 192.185.3.4
+  Wisanggeni  : 192.185.3.4
   ```
 
 ### Sebelum memulai 
