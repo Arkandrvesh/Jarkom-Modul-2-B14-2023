@@ -9,7 +9,7 @@
 
 
 ## Topologi
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/Topologi.png?raw=true)
 
 ## Configure 
 - **Router**
