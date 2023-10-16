@@ -8,6 +8,115 @@
 | Muhammad Arkan Karindra Darvesh | 5025211236 |
 
 
+## Topologi
+
+
+## Configure 
+- **Router**
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+    address 192.185.1.1
+    netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+    address 192.185.2.1
+    netmask 255.255.255.0
+
+auto eth3
+iface eth3 inet static
+    address 192.185.3.1
+    netmask 255.255.255.0
+```
+- **Yudhistira**
+```
+auto eth0
+iface eth0 inet static
+    address 192.185.2.2
+    netmask 255.255.255.0
+    gateway 192.185.2.1
+```
+- **Werkudara**
+  ```
+  auto eth0
+  iface eth0 inet static
+      address 192.185.2.3
+      netmask 255.255.255.0
+    gateway 192.185.2.1
+  ```
+- **Nakula**
+  ```
+  auto eth0
+  iface eth0 inet static
+      address 192.185.1.2
+      netmask 255.255.255.0
+    gateway 192.185.1.1
+  ```
+- **Sadewa**
+    ```
+    auto eth0
+  iface eth0 inet static
+      address 192.185.1.3
+      netmask 255.255.255.0
+      gateway 192.185.1.1
+  ```
+- **Arjuna**
+  ```
+    auto eth0
+  iface eth0 inet static
+      address 192.185.1.4
+      netmask 255.255.255.0
+      gateway 192.185.1.1
+  ```
+- **Prabukusuma**
+  ```
+  auto eth0
+  iface eth0 inet static
+      address 192.185.3.2
+      netmask 255.255.255.0
+    gateway 192.185.3.1
+  ```
+- **Abimanyu**
+    ```
+    auto eth0
+  iface eth0 inet static
+      address 192.185.3.3
+      netmask 255.255.255.0
+    gateway 192.185.3.1
+  ```
+- **Wisanggeni**
+  ```
+  auto eth0
+  iface eth0 inet static
+          address 192.185.3.4
+          netmask 255.255.255.0
+          gateway 192.185.3.1
+  ```
+- **IP Setiap Server**
+  ```
+  (Switch 2)
+  Router	      : 192.185.2.1 
+  Yudhistira	  : 192.185.2.2
+  Werkudara	    : 192.185.2.3
+  (Switch 1)
+  Router	      : 192.185.1.1 
+  Nakula	      : 192.185.1.2 
+  Sadewa	      : 192.185.1.3
+  Arjuna        : 192.185.1.4
+  (Switch 3)
+  Router	      : 192.185.3.1 
+  Prabukusuma  	: 192.185.3.2
+  Abimanyu	    : 192.185.3.3
+  Wisanggeni    : 192.185.3.4
+  ```
+
+### Sebelum memulai 
+setiap node, kita inisiasi pada `start.sh` menggunakan `sh` atau `bash`
+
 
 ## Soal 1 
 > Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjuna merupakan Load Balancer yang terdiri dari beberapa Web Server yaitu Prabakusuma, Abimanyu, dan Wisanggeni. Buatlah topologi dengan pembagian sebagai berikut. Folder topologi dapat diakses pada drive berikut
