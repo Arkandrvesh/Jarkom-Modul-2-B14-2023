@@ -110,8 +110,8 @@ iface eth0 inet static
   (Switch 3)
   Router    : 192.185.3.1 
   Prabukusuma  	: 192.185.3.2
-  Abimanyu	   : 192.185.3.3
-  Wisanggeni    : 192.185.3.4
+  Abimanyu	 : 192.185.3.3
+  Wisanggeni   : 192.185.3.4
   ```
 
 ### Sebelum memulai 
