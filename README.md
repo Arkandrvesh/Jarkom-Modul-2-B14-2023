@@ -804,7 +804,7 @@ service apache2 restart
 **Client (Nakula/Sadewa)**
 `Test_12.sh`
 ```
-lynx abimanyu.b14.com/home
+lynx abimanyu.b14.com
 curl abimanyu.b14.com/home
 ```
 
@@ -839,11 +839,10 @@ service apache2 restart
 `Test_13.sh`
 ```
 lynx parikesit.abimanyu.b14.com
-curl parikesit.abimanyu.b14.com
 ```
 
 ### Result
-![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no13.png?raw=true)
+<img width="334" alt="image" src="https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/assets/108170210/6cf91556-61d8-4303-ac3f-fda5d49f2d72">
 
 
 ## Soal 14
