@@ -192,7 +192,7 @@ ping www.arjuna.b14.com -c 5
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no2.png?raw=true)
 
 ## Soal 3
 > Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
@@ -247,7 +247,7 @@ ping www.abimanyu.b14.com -c 5
 
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no3.png?raw=true)
 
 ## Soal 4
 > Kemudian, karena terdapat beberapa web yang harus di-deploy, buatlah subdomain parikesit.abimanyu.yyy.com yang diatur DNS-nya di Yudhistira dan mengarah ke Abimanyu.
@@ -287,7 +287,7 @@ ping parikesit.abimanyu.b14.com -c 5
 
 ### Result
 
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no4.png?raw=true)
 
 ## Soal 5
 > Buat juga reverse domain untuk domain utama.
@@ -333,7 +333,7 @@ host -t PTR 192.185.3.3
 
 ### Result
 
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no5.png?raw=true)
 
 ## Soal 6
 > Agar dapat tetap dihubungi ketika DNS Server Yudhistira bermasalah, buat juga Werkudara sebagai DNS Slave untuk domain utama.
@@ -391,7 +391,7 @@ ping www.abimanyu.b14.com -c 5
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no6.png?raw=true)
 
 
 ## Soal 7
@@ -518,7 +518,7 @@ ping www.baratayuda.abimanyu.b14.com -c 5
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no7.png?raw=true)
 
 ## Soal 8
 > Untuk informasi yang lebih spesifik mengenai Ranjapan Baratayuda, buatlah subdomain melalui Werkudara dengan akses rjp.baratayuda.abimanyu.yyy.com dengan alias www.rjp.baratayuda.abimanyu.yyy.com yang mengarah ke Abimanyu.
@@ -556,6 +556,7 @@ ping www.rjp.baratayuda.abimanyu.b14.com -c 5
 ```
 
 ### Result
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no8.png?raw=true)
 
 ## Soal 9
 > Arjuna merupakan suatu Load Balancer Nginx dengan tiga worker yaitu Prabakusuma, Abimanyu, dan Wisanggeni. Lakukan deployment pada masing-masing worker
@@ -634,8 +635,8 @@ lynx http://192.185.3.4
 
 
 ### Result
-
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no9.png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no9_1.png?raw=true)
 
 ## Soal 10
 > Kemudian gunakan algoritma Round Robin untuk Load Balancer pada Arjuna. Gunakan server_name pada soal nomor 1. Untuk melakukan pengecekan akses alamat web tersebut kemudian pastikan worker yang digunakan untuk menangani permintaan akan berganti ganti secara acak. Untuk webserver di masing-masing worker wajib berjalan di port 8001-8003. Contoh (Prabakusuma:8001, Abimanyu:8002, Wisanggeni:8003)
@@ -722,8 +723,8 @@ lynx http://192.185.3.4:8003
  
 ### Result
 
-
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no10%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no10%20(2).png?raw=true)
 **Load Balancing**
 
 
@@ -762,7 +763,7 @@ lynx abimanyu.b14.com/home.html
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no11.png?raw=true)
 
 
 ## Soal 12
@@ -809,7 +810,7 @@ curl abimanyu.b14.com/home
 
 ### Result
 
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no12.png?raw=true)
 
 ## Soal 13
 > Selain itu, pada subdomain www.parikesit.abimanyu.yyy.com, DocumentRoot disimpan pada /var/www/parikesit.abimanyu.yyy
@@ -842,7 +843,7 @@ curl parikesit.abimanyu.b14.com
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no13.png?raw=true)
 
 
 ## Soal 14
@@ -887,7 +888,8 @@ lynx parikesit.abimanyu.b14.com/secret
 
 ### Result
 
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no14%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no14%20(2).png?raw=true)
 
 ## Soal 15
 > Buatlah kustomisasi halaman error pada folder /error untuk mengganti error kode pada Apache. Error kode yang perlu diganti adalah 404 Not Found dan 403 Forbidden.
@@ -931,7 +933,9 @@ lynx parikesit.abimanyu.b14.com/secret
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no15.png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no15%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no15%20(2).png?raw=true)
 
 
 ## Soal 16
@@ -976,7 +980,7 @@ lynx parikesit.abimanyu.b14.com/js
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no16.png?raw=true)
 
 
 ## Soal 17
@@ -1033,7 +1037,10 @@ lynx rjp.baratayuda.abimanyu.b14.com:14400
 
 ### Result
 **Port 14000 atau 14400**
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no17%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no17%20(2).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no17,%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no17,%20(2).png?raw=true)
 
 ## Soal 18
 > Untuk mengaksesnya buatlah autentikasi username berupa “Wayang” dan password “baratayudayyy” dengan yyy merupakan kode kelompok. Letakkan DocumentRoot pada /var/www/rjp.baratayuda.abimanyu.yyy.
@@ -1082,7 +1089,8 @@ lynx rjp.baratayuda.abimanyu.b14.com:14400
 
 ### Result
 
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no18.png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no18(1).png?raw=true)
 
 
 ## Soal 19
@@ -1115,7 +1123,10 @@ lynx 192.185.3.3
 ```
 
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no19%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no19(2).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no19(3).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no19%20(4).png?raw=true)
 
 
 ## Soal 20
@@ -1181,4 +1192,5 @@ lynx parikesit.abimanyu.b14.com/public/images/abimanyu.png
 lynx parikesit.abimanyu.b14.com/public/images/notabimanyujustmuseum.177013
 ```
 ### Result
-
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no20%20(1).png?raw=true)
+![alt text](https://github.com/Arkandrvesh/Jarkom-Modul-2-B14-2023/blob/main/img/no20%20(2).png?raw=true)
