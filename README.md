@@ -658,9 +658,9 @@ upstream backend {
 echo "
 # Default menggunakan Round Robin
 upstream myweb {
-server 192.212.3.2:8001; #IP Prabukusuma
-server 192.212.3.3: 8002; #IP Abimanyu
-server 192.212.3.4:8003; #IP Wisanggeni
+server 192.185.3.2:8001; #IP Prabukusuma
+server 192.185.3.3: 8002; #IP Abimanyu
+server 192.185.3.4:8003; #IP Wisanggeni
 }
 server{
 listen 80;
@@ -684,7 +684,7 @@ echo "Halo kamu berada di Prabukusuma";
 ?>'> /var/www/jarkom/index.php
 
 echo 'server {
-        listen 80;
+        listen 800X;
 
         root /var/www/jarkom;
         index index.php index.html index.htm index.nginx-debian.html;
